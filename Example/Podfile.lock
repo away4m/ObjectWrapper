@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (8.0.7)
+  - ObjectWrapper (0.1.0)
+  - Quick (2.2.0)
+
+DEPENDENCIES:
+  - Nimble
+  - ObjectWrapper (from `../`)
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  ObjectWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  ObjectWrapper: a4efbdfb1f55820e1dfb5ff87897a165db8f34fb
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+
+PODFILE CHECKSUM: 022caafc3577f32853ff41ed71376bad1d501614
+
+COCOAPODS: 1.9.1

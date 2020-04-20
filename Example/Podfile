@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ObjectWrapper_Example' do
+  pod 'ObjectWrapper', :path => '../'
+
+  target 'ObjectWrapper_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+  end
+end

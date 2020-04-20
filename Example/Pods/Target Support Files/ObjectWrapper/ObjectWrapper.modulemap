@@ -1,0 +1,6 @@
+framework module ObjectWrapper {
+  umbrella header "ObjectWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
